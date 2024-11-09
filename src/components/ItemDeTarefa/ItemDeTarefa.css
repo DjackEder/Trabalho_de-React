@@ -1,0 +1,75 @@
+
+.item-de-tarefa {
+  background-color: #b9b2b2;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 10px 0;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  margin-left: 390px;
+  margin-right: 390px;
+  
+  
+}
+
+.item-de-tarefa:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.item-de-tarefa h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.item-de-tarefa h3{
+  font-size: 1rem;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.item-de-tarefa .status-container {
+  margin-bottom: 15px;
+}
+
+.item-de-tarefa select {
+  padding: 8px;
+  font-size: 1rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 100%;
+  background-color: #a88e8e;
+  transition: border-color 0.2s;
+}
+
+.item-de-tarefa select:focus {
+  border-color: #4caf50;
+  outline: none;
+}
+
+.item-de-tarefa .delete-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.2s;
+}
+
+.item-de-tarefa .delete-button:hover {
+  background-color: #d32f2f;
+}
+
+.item-de-tarefa .delete-button:focus {
+  outline: none;
+}
+
+.item-de-tarefa .status-container label {
+  display: block;
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 5px;
+}
